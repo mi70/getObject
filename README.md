@@ -2,7 +2,7 @@
 ## 0. 前言
 * 版本：第一版‧2018/2/13
 * 作者：mi70
-* 可以截取Object裡面的keys或values
+* 可以截取Object裡面的keys或values和長度
 
 ## 1. 使用方式
 
@@ -58,7 +58,7 @@ var o = {
             'third': { id: 3, name: 'summer' },
         }
     };
- 
+      alert(getObject.getLength(o.item))    //get length
       alert(getObject.getKeys(o.item))	//get key
       alert(getObject.getVals(o.item))	//get value
 ```
